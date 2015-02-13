@@ -29,5 +29,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
   config.vm.network "private_network", ip: "33.33.33.10"
   
-  config.vm.provision :shell, :path => "init.sh"
+  config.vm.provision :shell, :path => "mysql.sh"
 end
