@@ -22,7 +22,7 @@
 sudo locale-gen UTF-8
 
 # Updating repos
-sudo apt-get update
+sudo apt-get -y update
 
 # Generate root password
 export ROOT_PASS="$RANDOM-$RANDOM-$RANDOM-$RANDOM"
